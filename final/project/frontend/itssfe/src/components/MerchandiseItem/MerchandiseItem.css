@@ -1,0 +1,77 @@
+.merchandise-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+  }
+  
+
+  
+  .merchandise-item h3 {
+    margin: 10px 0;
+  }
+  
+  .merchandise-item p {
+    margin: 10px 0;
+  }
+  
+  .merchandise-item button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .merchandise-item button:hover {
+    background-color: #f2f2f2;
+  }
+  /* Path: itssfe/src/components/MerchandiseList/MerchandiseList.css */
+.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .merchandise-item table {
+    border-collapse: collapse;
+    width: 800px;
+    margin: 20px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .merchandise-item thead {
+    background-color: #f2f2f2;
+  }
+  
+  .merchandise-item th, td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .merchandise-item th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .merchandise-item tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+
+  .btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .btn-container>button{
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+  }

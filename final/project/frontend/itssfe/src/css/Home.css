@@ -1,0 +1,79 @@
+.home-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.site-table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.site-table th, .site-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.site-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.site-table tr{
+    cursor: pointer;
+}
+.site-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.site-table tr:hover {
+    background-color: #ddd;
+}
+.home-page .merchandise-item-list{
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.home-page .merchandise-item-list  button{
+   color: white;
+   cursor: pointer;
+   width: 80px;
+   height: 60px;
+   border-radius: 10px;
+   font-size: 20px;
+    margin: 10px;
+}
+.add-btn{
+    background-color: #4CAF50;
+}
+.delete-btn{
+    background-color: #c6382e;
+}
+.add-btn:hover{
+    background-color: #0fff1b;
+}
+.delete-btn:hover{
+    background-color: #f91505;
+}
+.submit-btn{
+    background-color: #0022ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+    width: 150px;
+}
+.submit-btn:hover{
+    background-color: #007bff;
+}
